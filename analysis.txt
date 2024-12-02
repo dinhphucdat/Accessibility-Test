@@ -1,0 +1,62 @@
+Assignment 5
+Author: Dat Dinh
+
+___________________ ANALYSIS OF THE TESTING RESULT _________________________
+
+
+1. Which category/categories are the accessibility checkers best at identifying errors
+for (e.g. have the highest ratio of errors found to errors possible)?
+
+--> Based on the table, we can see that Title is best at identifying errors, with the 
+success ratio up to 66.7 percent
+
+2. Which category/categories are the accessibility checkers worst at identifying
+errors for (e.g. have the lowest ratio of errors found to errors possible)?
+
+--> Based on the table, we can see that Layout and Navigation are worst at identifying 
+errors, with zero success ratio.
+
+3. Select one of the tests that is shown in the showAllFailed and describe what the issue is
+and how it can affect a person with a disability.
+
+--> One of the tests that failed all 4 checkers is:
+	
+	[Language: Text language is in the wrong direction |GOOGLE: notfound |WAVE: notfound 
+	|SORTSITE: notfound |ASLINT: notfound]
+
+--> How it negatively affects the disabled: If the text language is printed backward or printed 
+where it should rarely be, even a normal person cannot expect the text to be there, so such a 
+text is not adequately informative. For example, when an instruction manual has an "attention" 
+section but it hides somewhere else that the reader can never expect, there is a chance that 
+the reader can omit it and hence destroy the products just because they never know there are some 
+notices they had to know to protect the products beforehand. This case is even worse when applied 
+to people with disability, especially when it comes to people with degraded brain functions, or even 
+people suffering from OCD or ADHD, since it is really hard for them to make sure they have scanned 
+through all the texts they are supposed to read. The only way to improve these errors is that we 
+need to identify as many errors as possible through some detecting tools, but in this case all 
+checker failed at detecting such errors, so if we let such propagate to the public, we could 
+observe negative effects.
+
+4. Reflect: How does this assignment shape your understanding of computer science?
+
+--> Computer Science entails working with a junk of data and from that data analysis, 
+what conclusion we can draw. This is a massive and intertwining work between 
+Computer Science and Data Science, but Computer Science works more on the algorithms 
+to process the data into a friendlier form so the analyzers can use it at ease. Data 
+Science builds different kinds of statistic tests to check the validity of data. 
+Hence, Computer Science is not just about building softwares or games, but there are 
+also some more pathways where Computer Scientists never discovered, but they have 
+still been there and needed labors.
+
+
+
+
+
+
+
+
+
+
+
+
+
